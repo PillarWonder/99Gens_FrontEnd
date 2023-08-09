@@ -1,0 +1,63 @@
+{
+  "name": "AustinProject",
+  "private": true,
+  "description": "AustinProject",
+  "version": "0.1.0",
+  "author": "Marco Ming <bitwizorg@gmail.com>",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.0",
+    "anymatch": "^3.1.2",
+    "axios": "^1.1.3",
+    "crypto": "^1.0.1",
+    "firebase": "^8.3.1",
+    "gatsby": "^4.24.1",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-react-helmet": "^5.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "jquery": "^3.6.1",
+    "mongodb": "^4.10.0",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.4.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^1.1.0",
+    "react-owl-carousel2": "^0.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "keywords": [
+    "gatsby"
+  ], 
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitWiz0108/AustinProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
